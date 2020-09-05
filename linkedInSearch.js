@@ -4,7 +4,8 @@ let company = document.querySelector(
   ".jobs-details-top-card__company-url"
 ).innerText;
 
-let mapLocation = document.querySelector(".jobs-details-top-card__exact-location").innerText;
+let mapLocation = document.querySelector("span[data-test-job-location]")
+  .innerText;
 let description = document.querySelector("span[data-test-job-description-text]").innerHTML;
 
 
