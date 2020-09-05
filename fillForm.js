@@ -36,3 +36,5 @@ chrome.storage.sync.get(["description"], (result) => {
         chrome.storage.sync.remove(["description"]);
 
 });
+
+

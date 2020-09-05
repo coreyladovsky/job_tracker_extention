@@ -14,3 +14,4 @@ chrome.storage.sync.set({url: url})
 chrome.storage.sync.set({company: company})
 chrome.storage.sync.set({location: mapLocation})
 chrome.storage.sync.set({description: description})
+
