@@ -1,3 +1,14 @@
+//greenhouse
+//stackoverflow
+//anglelist
+// indeed 
+//linkedlist - search - show 
+//zip recruiter  
+//https://www.workatastartup.com/
+// https://stackoverflow.com/jobs
+// https://hnhiring.com/
+//
+
 let copy = document.querySelector("#copy");
 
 copy.addEventListener("click", (e) => {
