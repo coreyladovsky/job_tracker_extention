@@ -1,0 +1,10 @@
+{
+    "name": "job_tracker",
+    "version": "1.0",
+    "description": "Auto fills your add job form",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+
+}
