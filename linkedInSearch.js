@@ -1,12 +1,12 @@
-let jobTitle = document.querySelector(".jobs-details-top-card__job-title").innerText;
-let url = document.location.href
-let company = document.querySelector(
+var jobTitle = document.querySelector(".jobs-details-top-card__job-title").innerText;
+var url = document.location.href
+var company = document.querySelector(
   ".jobs-details-top-card__company-url"
 ).innerText;
 
-let mapLocation = document.querySelector("span[data-test-job-location]")
+var mapLocation = document.querySelector("span[data-test-job-location]")
   .innerText;
-let description = document.querySelector("span[data-test-job-description-text]").innerHTML;
+var description = document.querySelector("span[data-test-job-description-text]").innerHTML;
 
 
 chrome.storage.sync.set({job_title: jobTitle})
