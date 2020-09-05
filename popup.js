@@ -9,7 +9,7 @@
 // https://hnhiring.com/
 //
 
-let copy = document.querySelector("#copy");
+let copy = document.querySelector("#copy")
 
 copy.addEventListener("click", (e) => {
   chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
