@@ -18,6 +18,10 @@ copy.addEventListener("click", (e) => {
       chrome.tabs.executeScript({
         file: "linkedInSearch.js",
       });
+    } else if(url.includes("linkedin.com/jobs/view/")) {
+        chrome.tabs.executeScript({
+            file: "linkedInView.js"
+        })
     }
   });
   window.close();
