@@ -1,12 +1,12 @@
-//greenhouse
+//TODO: 
 //google
-//stackoverflow
 //anglelist
 //zip recruiter  
 //https://www.workatastartup.com/
 // https://stackoverflow.com/jobs
 // https://hnhiring.com/
 //
+//greenhouse
 // indeed 
 //linkedlist - search - show 
 
@@ -31,7 +31,12 @@ copy.addEventListener("click", (e) => {
       chrome.tabs.executeScript({
         file: "greenhouse.js",
       });
-    }
+    } 
+    // else if(url.includes("google.com/search")) {
+    //   chrome.tabs.executeScript({
+    //     file: "google.js"
+    //   })
+    // }
   });
   window.close();
 });
