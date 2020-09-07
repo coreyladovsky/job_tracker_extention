@@ -1,13 +1,14 @@
 //greenhouse
+//google
 //stackoverflow
 //anglelist
-// indeed 
-//linkedlist - search - show 
 //zip recruiter  
 //https://www.workatastartup.com/
 // https://stackoverflow.com/jobs
 // https://hnhiring.com/
 //
+// indeed 
+//linkedlist - search - show 
 
 let copy = document.querySelector("#copy")
 
@@ -25,6 +26,10 @@ copy.addEventListener("click", (e) => {
     } else if (url.includes("indeed.com/jobs")) {
       chrome.tabs.executeScript({
         file: "indeed.js",
+      });
+    } else if (url.includes("boards.greenhouse.io/")) {
+      chrome.tabs.executeScript({
+        file: "greenhouse.js",
       });
     }
   });
