@@ -31,7 +31,11 @@ copy.addEventListener("click", (e) => {
       chrome.tabs.executeScript({
         file: "greenhouse.js",
       });
-    } 
+    } else if(url.includes("jobs.lever.co")) {
+        chrome.tabs.executeScript({
+          file: "lever.js",
+        });    
+    }
     // else if(url.includes("google.com/search")) {
     //   chrome.tabs.executeScript({
     //     file: "google.js"
