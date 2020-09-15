@@ -9,6 +9,8 @@
 //greenhouse
 // indeed 
 //linkedlist - search - show 
+// lever 
+
 
 let copy = document.querySelector("#copy")
 
@@ -35,7 +37,12 @@ copy.addEventListener("click", (e) => {
         chrome.tabs.executeScript({
           file: "lever.js",
         });    
-    }
+    } 
+    // else if (url.includes("angel.co/jobs")) {
+    //   chrome.tabs.executeScript({
+    //     file: "angel.js",
+    //   });
+    // }
     // else if(url.includes("google.com/search")) {
     //   chrome.tabs.executeScript({
     //     file: "google.js"
