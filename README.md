@@ -26,7 +26,9 @@ Hopefully the Job Title, Company, Location, URL, and Description will be auto fi
 
 ### Install Instructions
 
-Eventually I hope to add this extension in the chrome store, but for now please follow the steps below.
+This app is also availabe from the chrome web store [here](https://chrome.google.com/webstore/detail/jobtracker/bielmjcfdikdfnakkfiljafaapnblkjc)
+
+To install locally
 
 1. Clone this repository on your local machine.
 2. On your Chrome brower go to `chrome://extensions/`
@@ -48,4 +50,4 @@ Because the app is not currently in the chrome store, you'll have to manually ma
 3. On your Chrome brower go to `chrome://extensions/`
 4. Find the extension called job_tracker and click on the refresh button next to the on off toggle.
 
-Good luck on your job hunt! Please star this repo if you've found it helpful, and watch it so that you can know when to update your extension. 
+Good luck on your job hunt! Please star this repo if you've found it helpful, and watch it so that you can know when to update your extension.
