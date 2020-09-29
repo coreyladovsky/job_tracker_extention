@@ -5,6 +5,7 @@
 //https://www.workatastartup.com/
 // https://stackoverflow.com/jobs
 // https://hnhiring.com/
+// glassdoor
 //
 //greenhouse
 // indeed 
@@ -33,10 +34,14 @@ copy.addEventListener("click", (e) => {
       chrome.tabs.executeScript({
         file: "greenhouse.js",
       });
-    } else if(url.includes("jobs.lever.co")) {
-        chrome.tabs.executeScript({
-          file: "lever.js",
-        });    
+    } else if (url.includes("jobs.lever.co")) {
+      chrome.tabs.executeScript({
+        file: "lever.js",
+      });
+    } else if (url.includes("glassdoor.com/Job/jobs")) {
+      chrome.tabs.executeScript({
+        file: "glassdoor.js",
+      });
     } 
     // else if (url.includes("angel.co/jobs")) {
     //   chrome.tabs.executeScript({
